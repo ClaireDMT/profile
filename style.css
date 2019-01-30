@@ -1,0 +1,110 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #5E6B7C;
+}
+h1, h2, h3 {
+  font-family: 'Monserrat', sans-serif;
+  color: #5c8d89 ;
+}
+
+h1 {
+  font-size: 22;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: #5E6B7C;
+}
+
+a:hover {
+  color: #5c8d89 ;
+  font-weight: bold;
+}
+
+#profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 3px #5E6B7C;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #EBEBEB;
+}
+
+img {
+  width: 110px;
+  height: 150px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #a7d7c5;
+  box-shadow: 2px #5E6B7C;
+  text-align: center;
+}
+
+}
+p {
+  text-align: justify
+  width: 30px;
+}
+
+table {
+  text-align: left;
+  text-align: justify;
+}
+
+td {
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
